@@ -1,0 +1,25 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: billingsystems
+  datasource:
+    url: jdbc:mysql://localhost:3306/billingsystem
+    password: ganesh
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL=DEBUG:
+          springframework: info
+
+
