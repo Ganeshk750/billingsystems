@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="address")
 public class Address extends BaseObject {
+
     @Column(name="ADDRESS1", nullable = false)
     private String address1;
 
