@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<!--Adding mapstruct.versions-->
+		<org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
 	</properties>
 
 	<dependencies>
@@ -82,6 +84,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
+			<!--Use for mapstruct -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -100,6 +103,8 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+			<!--Use for mapstruct == ends -->
+
 		</plugins>
 	</build>
 
