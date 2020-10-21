@@ -1,4 +1,4 @@
-package com.ganesh.api.mapper.impl;
+package com.ganesh.api.mapper;
 
 import com.ganesh.api.dto.BaseDto;
 import com.ganesh.api.entity.BaseObject;
