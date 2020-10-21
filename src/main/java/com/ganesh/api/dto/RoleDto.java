@@ -1,4 +1,12 @@
 package com.ganesh.api.dto;
 
-public class RoleDto {
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.Data;
+
+@Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class RoleDto extends BaseDto {
+
+    private String name;
+    private String description;
 }
